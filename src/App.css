@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.todo-form {
+  max-width: 400px;
+  margin: 50px auto 10px;
+  border-bottom: 3px solid black;
+}
+
+.form-head {
+  text-align: left;
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+}
+
+.form-input {
+  display: block;
+  margin: 25px auto;
+  height: 30px;
+  width: 300px;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color:forestgreen;
+  border-radius: 0;
+  color: white;
+  border: none;
+}
+
+.list-box {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  color: white;
+}
+
+.list-head {
+  padding: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: darkslategrey;
+  color: white;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: black;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.delete-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
