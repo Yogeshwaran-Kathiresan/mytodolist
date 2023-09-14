@@ -10,14 +10,12 @@ function App() {
     if (!todo.text || /^\s*$/.test(todo.text)) {
       return;
     }
-    console.log("Addtodo Id" + todo.id);
     const newTodos = [todo, ...todos];
     setTodos(newTodos);
   };
 
   const removeTodo = id => {
     const removedArr = [...todos].filter(todo => todo.id !== id);
-    console.log("inp ID" +id);
 
     setTodos(removedArr);
   }
